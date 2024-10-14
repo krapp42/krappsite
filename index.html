@@ -11,7 +11,7 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
-  color: #777;
+  color: #444444;
   line-height: 1.8;
 }
 
@@ -25,19 +25,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
+  background-image: url('/ottos-car-on-ramp.png');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
+  background-image: url("/ottos-successful-service.png");
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
+  background-image: url("/ottos-yorkshire-map-3.png");
   min-height: 400px;
 }
 
@@ -82,7 +82,10 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+<!-- Add your logo image here -->
+    <img src="/ottos-logo-final.png" alt="Ottos Logo" style="width:300px; height:auto; display:block; margin: 0 auto; margin-bottom: 20px;">
+
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Welcome <span class="w3-hide-small">to</span> Ottos</span>
   </div>
 </div>
 
@@ -90,18 +93,16 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">About Ottos</h3>
   <p class="w3-center"><em>Remote vehicle servicing at your convenience (home, office, garage, you
-    choose). Pick a date, time, package
-    and location and Ottos’ qualified
-    technicians do the rest.</em></p>
+    choose). Pick a date, time, package and location and Ottos’ qualified technicians do the rest.</em></p>
  
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Our Team</b></p><br>
+      <img src="/ottos-team-photo.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of the team" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
+    <div class="w3-col m6 w3-hide-small w3-padding-large", style="margin-top: 150px;">
       <p> 1 - Book us on Booksy or WhatsApp <br>
         2 - Ottos sources all parts required <br>
         3 - Ottos comes to you & carries out the service <br>
@@ -110,16 +111,16 @@ body, html {
                 
     </div>
   </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <p class="w3-large w3-center w3-padding-16">Ottos prides itself in:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Excellent Customer Service</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">95%</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Quality Service at Low Prices</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Expanding Our Location Offerings Rigourously</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
@@ -175,6 +176,24 @@ body, html {
     </div>
   </div>
 
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="/ottos-quality-filters.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Manufacturer Recommended Parts">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/ottos-sustainable-practices.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sustainable Business Practices">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="ottos-signed-stamped-authentic-certificates.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Signed, Stamped and Authentic Certification">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/ottos-quick-services.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quick & Easy Services">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
 </div>
 
 <!-- Modal for full size images on click-->
@@ -200,11 +219,11 @@ body, html {
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="/ottos-west-yorkshire-map.png" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Yorkshire, UK<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>West Yorkshire, UK<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 07 534 018 017<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ottos@contactottos.com<br>
       </div>
